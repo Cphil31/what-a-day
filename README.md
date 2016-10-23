@@ -26,8 +26,8 @@ Les librairies à utiliser sont :
 ---
 
 Codes hexadécimaux des couleurs utilisées :
-- #ff7473
-- #fff
+- #ff7473 //rose
+- #fff //blanc
 - #34314c
 - #47b8e0
 - #9055A2;

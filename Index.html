@@ -4,39 +4,72 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
 
 </head>
 <body>
 
-		<span id="message" class="error"></span>
+	<span id="message" class="error"></span>
+
 	<div class="overlay">
-	<span id="dd">Jour</span>
-	<span id="mm">Mois</span>
-	<span id="yy">Année</span>
-	</div>	
-	<input id="jour" type="text" src="jour">
+		<div class="ui centered five column grid">
+			<div class="column"><span id="dd">Jour</span></div>
+			<div class="column"><span id="mm">Mois</span></div>
+			<div class="column"><span id="yy">Année</span></div>
+		</div>
+	</div>
 
-	<select name="" id="mois">
-		<option value="1">Janvier</option> 
-		<option value="2">Février</option>
-		<option value="3">Mars</option>
-		<option value="4">Avril</option> 
-		<option value="5">Mai</option> 
-		<option value="6">Juin</option> 
-		<option value="7">Juillet</option> 
-		<option value="8">Aout</option> 
-		<option value="9">Septembre</option> 
-		<option value="10">Octobre</option> 
-		<option value="11">Novembre</option> 
-		<option value="12">Decembre</option>  
-	</select>
 
-	<input id="annee" type="text" src="annee">
-	<button id="verifie">Vérifier</button>
-	<button id="restart">Recommencer</button>
+
+	<div class="ui centered five column grid">
+		<!-- JOUR -->
+		<div class="column">
+			<input id="jour" type="text" src="jour">
+		</div>
+		<!-- FIN JOUR -->
+
+		<!-- MOIS -->
+		<div class="column">
+			<select name="" id="mois">
+				<option value="1">Janvier</option> 
+				<option value="2">Février</option>
+				<option value="3">Mars</option>
+				<option value="4">Avril</option> 
+				<option value="5">Mai</option> 
+				<option value="6">Juin</option> 
+				<option value="7">Juillet</option> 
+				<option value="8">Aout</option> 
+				<option value="9">Septembre</option> 
+				<option value="10">Octobre</option> 
+				<option value="11">Novembre</option> 
+				<option value="12">Decembre</option>  
+			</select>
+		</div>
+		<!-- FIN MOIS -->
+		<!-- ANNEE -->
+		<div class="column">
+			<input id="annee" type="text" src="annee">
+		</div>
+		<!-- ANNEE -->
+
+	</div>
+
+		<!-- BOUTONS  -->
+		<div class="ui centered five column grid"> 
+			<div class="column">
+				<button id="verifie">Vérifier</button>
+			</div>
+			<div class="column">
+					<button id="restart">Recommencer</button>
+			</div>
+		</div>
+		<!-- FIN BOUTONS -->
+
+
 	<script src="node_modules/jquery/dist/jquery.js"></script>
 	<script src = "node_modules/moment/moment.js"></script>
 	<script src = "node_modules/moment/locale/fr.js"></script>
 	<script src ="app.js"></script>
+	<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
 </body>
 </html>
