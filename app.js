@@ -24,20 +24,18 @@ $(".restart").hide();
   						
 				    	
 						if(day>31){
-						$("#message").html("le jour doit etre compris entre 1 et 31");
+						$("#message").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
+						$("#jour").css("border-color","#ff7473");
 						}
 						if(day<1){
 						$("#message").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
+						$("#jour").css("border-color","#ff7473");
 						}
 						if(year<0){
 						$("#message").html("L'année doit etre supérieure à 0").css({"background-color": "#ff7473", "font-size": "50px"});
-						
-
+						$("#annee").css("border-color","#ff7473");
 						}
-						$(".overlay").hide();
-						$("#jour").hide();
-						$("#mois").hide();
-						$("#annee").hide();
+						
 						$(".verifie").hide();
 						$(".restart").show();
 						},
