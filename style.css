@@ -9,8 +9,9 @@ background-color: #34314c;
 	text-transform:capitalize;
 }
 #alert{
-	background-color:red;
+	background-color:#ff7473;
 	font-size: 100px; 
+	margin-left:20px;
 }
 .overlay{
 	clear:left;
