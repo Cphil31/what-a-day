@@ -1,4 +1,55 @@
 body{
-	background-color: #34314c;
+background-color: #34314c;
 }
-
+#message{
+	font-size: 300px;
+	margin-left: 300px;
+	color:#47b8e0;
+	text-transform:capitalize;
+}
+.overlay{
+	clear:left;
+	color:#47b8e0;
+	font-size:30px;
+	margin-left:450px;	
+	margin-bottom:10px;
+}
+#jour{
+	margin-left:450px;
+	border:#47b8e0 solid; 
+	background-color:#34314c;
+	color: #47b8e0 ;
+}
+#mois{
+	border:#47b8e0 solid; 
+	background-color:#34314c;
+	color:#47b8e0 ;
+}
+#annee{
+	border:#47b8e0 solid; 
+	background-color:#34314c;
+	color:#47b8e0 ;
+}
+#dd{
+	float: left;
+}
+#mm{
+	float:left;
+	margin-left:125px;
+	margin-right:37px;
+}
+.verifie{
+	margin-left: 630px;
+	margin-top:20px;
+	border:#47b8e0 solid; 
+	background-color:#34314c;
+	color:#47b8e0 ;
+	font-size:20px;
+}
+.restart{
+	border:#47b8e0 solid; 
+	background-color:#34314c;
+	color:#47b8e0 ;
+	font-size:30px;
+	margin-left:600px;
+}
