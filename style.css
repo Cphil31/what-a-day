@@ -2,10 +2,15 @@ body{
 background-color: #34314c;
 }
 #message{
+	float:left;
 	font-size: 300px;
 	margin-left: 300px;
 	color:#47b8e0;
 	text-transform:capitalize;
+}
+#alert{
+	background-color:red;
+	font-size: 100px; 
 }
 .overlay{
 	clear:left;

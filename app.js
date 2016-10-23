@@ -1,5 +1,6 @@
    
 $(".restart").hide();
+// window.location.reload()
 (function(){
   "use strict";
   // object
@@ -11,7 +12,7 @@ $(".restart").hide();
 
 				    listeners:function(){
 				      		$(".verifie").click(app.day);
-							$(".restart").click();
+							$(".restart").click(app.restart);
 				    },
 
 				    day:function(){
@@ -20,23 +21,27 @@ $(".restart").hide();
 				    	var year=$("#annee").val();
 				    	var total= 
 				    	$("#message").html(moment(year+month+day,"YYYYMMDD").format('dddd')).show(".restart");
-  						// $(".restart").show("");
+  						
 				    	
 						if(day>31){
-						$("#message").html("le jour doit etre compris entre 1 et 31").css("background-color","red");
+						$("#alert").html("le jour doit etre compris entre 1 et 31");
 						}
 						if(day<1){
-						$("#message").html("le jour doit etre compris entre 1 et 31").css("background-color","red");
+						$("#alert").html("le jour doit etre compris entre 1 et 31");
 						}
 						if(year<0){
-						$("#message").html("L'année doit etre supérieure à 0");
+						$("#alert").html("L'année doit etre supérieure à 0");
 						}
 						$(".overlay").hide();
 						$("#jour").hide();
 						$("#mois").hide();
+						$("#message").hide();
 						$("#annee").hide();
 						$(".verifie").hide();
 						$(".restart").show();
+						},
+						restart:function(){
+							window.location.reload()
 						},
 		
 			};
