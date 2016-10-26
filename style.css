@@ -1,12 +1,17 @@
 body{
 background-color: #34314c;
 }
-#message{
+.error{
 	float:left;
 	font-size: 300px;
-	margin-left: 300px;
-	color:#47b8e0;
-	text-transform:capitalize;
+	color:#ffffff;
+}
+.affjour{
+	font-size: 350px;
+	margin-left:50px;
+	width: 1200px;
+	text-align: center;
+	color:#D499B9; ;
 }
 #alert{
 	background-color:#ff7473;
@@ -53,9 +58,9 @@ background-color: #34314c;
 	font-size:20px;
 }
 .restart{
-	border:#47b8e0 solid; 
+	border:#D499B9 solid; 
 	background-color:#34314c;
-	color:#47b8e0 ;
+	color:#D499B9 ;
 	font-size:30px;
 	margin-left:600px;
 }
