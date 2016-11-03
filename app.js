@@ -27,19 +27,20 @@ $(".restart").hide();
       $("#mois").hide();
       $("#annee").hide();
       
-      
-      
       if(day>31){
-        $("#message").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
+        $(".error").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
         $("#jour").css("border-color","#ff7473");
+        $(".affjour").hide();
   		}
   		if(day<1){
-  			$("#message").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
+  			$(".error").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
   			$("#jour").css("border-color","#ff7473");
+        $(".affjour").hide();
   		}
   		if(year<0){
-  			$("#message").html("L'année doit etre supérieure à 0").css({"background-color": "#ff7473", "font-size": "50px"});
+  			$(".error").html("L'année doit etre supérieure à 0").css({"background-color": "#ff7473", "font-size": "50px"});
   			$("#annee").css("border-color","#ff7473");
+        $(".affjour").hide();
   		}
   		
   		$(".verifie").hide();
