@@ -28,17 +28,17 @@ $(".restart").hide();
       $("#annee").hide();
       
       if(day>31){
-        $(".error").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
+        $(".error").html("le jour doit etre compris entre 1 et 31");
         $("#jour").css("border-color","#ff7473");
         $(".affjour").hide();
   		}
   		if(day<1){
-  			$(".error").html("le jour doit etre compris entre 1 et 31").css({"background-color": "#ff7473", "font-size": "50px"});
+  			$(".error").html("le jour doit etre compris entre 1 et 31");
   			$("#jour").css("border-color","#ff7473");
         $(".affjour").hide();
   		}
   		if(year<0){
-  			$(".error").html("L'année doit etre supérieure à 0").css({"background-color": "#ff7473", "font-size": "50px"});
+  			$(".error").html("L'année doit etre supérieure à 0");
   			$("#annee").css("border-color","#ff7473");
         $(".affjour").hide();
   		}

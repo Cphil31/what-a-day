@@ -1,15 +1,18 @@
 body{
-background-color: #34314c;
+	background-color: #34314c;
 }
 .error{
-	float:left;
-	font-size: 300px;
-	color:#ffffff;
+
+	font-size:50px;
+	width:100%;
+	background-color: #ff7473;
+	text-align:center;
+	color:#ffffff; 
+	background-size:cover;	
 }
 .affjour{
 	font-size: 350px;
-	margin-left:50px;
-	width: 1200px;
+	width: 100%;
 	text-align: center;
 	color:#D499B9; ;
 }
@@ -58,9 +61,12 @@ background-color: #34314c;
 	font-size:20px;
 }
 .restart{
+	border-radius: 100%;
 	border:#D499B9 solid; 
-	background-color:#34314c;
-	color:#D499B9 ;
-	font-size:30px;
-	margin-left:600px;
+	background-color:#D499B9;
+	padding:10px;
+	color:#9055A2;
+	font-size:20px;
+	float:right;
+	
 }

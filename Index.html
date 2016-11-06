@@ -4,68 +4,58 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
-	</head>
+</head>
 <body>
 
-			<span class="error"></span>
-			<div class="affjour">
-					<span ></span>
-			</div>
+	<div class="error">
+		<span ></span>
+	</div>	
+	<button class="restart">X</button>
+	<div class="affjour">
+		<span ></span>
+	</div>
 	
-	
-
 	<div class="overlay">
-			<span id="dd">Jour</span>
-			<span id="mm">Mois</span>
-			<span id="yy">Année</span>
+		<span id="dd">Jour</span>
+		<span id="mm">Mois</span>
+		<span id="yy">Année</span>
 	</div>
 
-		<!-- JOUR -->
+	<!-- JOUR -->
 	
-			<input id="jour" type="text" src="jour">
-	
-		<!-- FIN JOUR -->
+	<input id="jour" type="text" src="jour">
 
-		<!-- MOIS -->
+	<!-- MOIS -->
 	
-			<select name="" id="mois">
-				<option value="1">Janvier</option> 
-				<option value="2">Février</option>
-				<option value="3">Mars</option>
-				<option value="4">Avril</option> 
-				<option value="5">Mai</option> 
-				<option value="6">Juin</option> 
-				<option value="7">Juillet</option> 
-				<option value="8">Aout</option> 
-				<option value="9">Septembre</option> 
-				<option value="10">Octobre</option> 
-				<option value="11">Novembre</option> 
-				<option value="12">Decembre</option>  
-			</select>
+	<select name="" id="mois">
+		<option value="1">Janvier</option> 
+		<option value="2">Février</option>
+		<option value="3">Mars</option>
+		<option value="4">Avril</option> 
+		<option value="5">Mai</option> 
+		<option value="6">Juin</option> 
+		<option value="7">Juillet</option> 
+		<option value="8">Aout</option> 
+		<option value="9">Septembre</option> 
+		<option value="10">Octobre</option> 
+		<option value="11">Novembre</option> 
+		<option value="12">Decembre</option>  
+	</select>
 	
-		<!-- FIN MOIS -->
-		<!-- ANNEE -->
+	<!-- ANNEE -->
 	
-			<input id="annee" type="text" src="annee">
+	<input id="annee" type="text" src="annee">
 	
-		<!-- FIN ANNEE -->
+	<!-- BOUTONS  -->
 
-		<!-- BOUTONS  -->
-	 
 	<div class="bouttons">
 		
-				<button class="verifie">Vérifier</button>
-				<button class="restart">Recommencer</button>
+		<button class="verifie">Vérifier</button>
 	</div>
 	
-	
-		<!-- FIN BOUTONS -->
-
-
 	<script src="node_modules/jquery/dist/jquery.js"></script>
 	<script src = "node_modules/moment/moment.js"></script>
 	<script src = "node_modules/moment/locale/fr.js"></script>
 	<script src ="app.js"></script>
-	<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
 </body>
 </html>
